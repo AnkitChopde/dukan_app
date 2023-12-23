@@ -20,7 +20,7 @@ const Navbar = () => {
       }
   return (
     <Stack sx={{width: "76rem",height:"8vh",borderBottom: "1px solid #D9D9D9"}} direction="row" justifyContent={"space-between"} alignItems={"center"}>
-     <Stack direction={"row"} alignItems={"center"} justifyContent={"center"} sx={{paddingLeft:"1rem"}}>
+     <Stack direction={"row"} alignItems={"center"} justifyContent={"center"} spacing={1} sx={{paddingLeft:"1rem"}}>
      <Avatar src= {help} alt={"Navicon"} sx={{ width: '20px', height: '20px',borderRadius:0,bgcolor:"rgba(255, 255, 255, 0.10)" }}/>
      <Typography sx={{ color: '#4D4D4D',fontFamily: "Galano Grotesque",fontSize:" 0.75rem",fontStyle:" normal",fontWeight: 400,lineHeight: "1rem" }}>
            How it works
