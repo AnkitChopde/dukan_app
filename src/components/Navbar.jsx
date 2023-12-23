@@ -1,9 +1,9 @@
 import { Avatar, Box, InputAdornment, Stack, TextField, Typography } from '@mui/material'
 import React from 'react'
-import help from "../assets/help.png"
+import help from "../assets/Help.png"
 import search from "../assets/search.png"
-import group from "../assets/group.png"
-import menu from "../assets/menu.png"
+import group from "../assets/Group.png"
+import menu from "../assets/Menu.png"
 
 const Navbar = () => {
     const inputStyles = {

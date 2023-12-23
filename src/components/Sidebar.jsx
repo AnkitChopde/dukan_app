@@ -1,6 +1,6 @@
 import React from 'react'
-import {Avatar, Box,Icon,Stack, Typography} from "@mui/material"
-import Img from "../assets/image.png"
+import {Avatar, Box,Stack, Typography} from "@mui/material"
+import Img from "../assets/Image.png"
 import down from "../assets/Down.png"
 import wallet from "../assets/wallet.png"
 import { sidebarData } from './sidebarData'
